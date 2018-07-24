@@ -226,6 +226,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\components\dao_tao_lien_tuc\daoTaoLienTuc.module.js" />
+    <Content Include="app\components\dao_tao_lien_tuc\daoTaoLienTucListController.js" />
+    <Content Include="app\components\dao_tao_lien_tuc\daoTaoLienTucAddController.js" />
+    <Content Include="app\components\dao_tao_lien_tuc\daoTaoLienTucAddView.html" />
+    <Content Include="app\components\dao_tao_lien_tuc\daoTaoLienTucListView.html" />
+    <Content Include="app\components\home\homeView.html" />
+    <Content Include="app\components\home\homeController.js" />
+    <Content Include="app\shared\modules\chidaotuyen.common.js" />
     <Content Include="Assets\admin\css\AdminLTE.css" />
     <Content Include="Assets\admin\css\AdminLTE.min.css" />
     <Content Include="Assets\admin\css\alt\AdminLTE-bootstrap-social.css" />
