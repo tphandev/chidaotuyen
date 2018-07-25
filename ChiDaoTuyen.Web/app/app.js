@@ -1,6 +1,6 @@
 ﻿/// <reference path="/Assets/admin/libs/angular/angular.js" />
 (function () {
-    angular.module('chidaotuyen', ['chidaotuyen.daoTaoLienTuc','chidaotuyen.common']).config(config);
+    angular.module('chidaotuyen', ['chidaotuyen.daoTaoLienTuc', 'chidaotuyen.common']).config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
@@ -12,4 +12,4 @@
         });
         $urlRouterProvider.otherwise('/admin');
     }
-})
+})();
